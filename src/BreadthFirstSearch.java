@@ -12,10 +12,10 @@ public class BreadthFirstSearch<Node> extends Search<Node> {
         marked.add(current);
 
         Queue<Node> queue = new LinkedList<>();
-        queue.add(current); //[0]
+        queue.add(current); 
 
         while (!queue.isEmpty()) {
-            Node v = queue.remove(); // []
+            Node v = queue.remove(); 
 
             for (Node vertex : graph.adjacencyList(v)) {
                 if (!marked.contains(vertex)) {

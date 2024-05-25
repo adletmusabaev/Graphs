@@ -28,7 +28,7 @@ public class MyGraph<Node> {
 
         if (hasEdge(source, dest)
                 || source.equals(dest))
-            return; // reject parallels & self-loops
+            return; 
 
         map.get(source).add(dest);
 

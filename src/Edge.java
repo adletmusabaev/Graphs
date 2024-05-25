@@ -42,7 +42,7 @@ public class Edge<Node> {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true; // references compared
+        if (this == o) return true; 
 
         if (o == null || getClass() != o.getClass()) return false;
 

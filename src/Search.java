@@ -20,7 +20,7 @@ public class Search<Node> {
 
         LinkedList<Node> ls = new LinkedList<>();
         for (Node i = n; i != source; i = edgeTo.get(i)) {
-            ls.push(i); // inverted adding
+            ls.push(i); 
         }
 
         ls.push(source);
